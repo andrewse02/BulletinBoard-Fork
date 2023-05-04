@@ -48,7 +48,7 @@ import UIKit
     @objc open func makeDescriptionLabel() -> UILabel {
 
         let descriptionLabel = UILabel()
-        descriptionLabel.textAlignment = .center
+        descriptionLabel.textAlignment = appearance.descriptionTextAlignment
         descriptionLabel.textColor = appearance.descriptionTextColor
         descriptionLabel.numberOfLines = 0
         descriptionLabel.font = appearance.makeDescriptionFont()
