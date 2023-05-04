@@ -75,6 +75,9 @@ import UIKit
             return #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         }
     }()
+    
+    /// The alignment of the description text (default `.center`).
+    @objc public var descriptionTextAlignment: NSTextAlignment = .center
 
     // MARK: - Corner Radius Customization
 
